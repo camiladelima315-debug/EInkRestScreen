@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/clockText"
+        android:text="00:00"
+        android:textSize="72sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/dateText"
+        android:text="segunda-feira"
+        android:textSize="18sp"
+        android:textColor="#BBBBBB"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
