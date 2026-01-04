@@ -1,1 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eink.restscreen">
 
+    <application
+        android:label="E-Ink Rest Screen"
+        android:theme="@style/Theme.DeviceDefault.NoActionBar">
+
+        <service
+            android:name=".RestDreamService"
+            android:permission="android.permission.BIND_DREAM_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>
